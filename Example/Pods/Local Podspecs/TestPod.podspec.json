@@ -1,22 +1,23 @@
 {
   "name": "TestPod",
   "version": "0.1.0",
-  "summary": "A short description of TestPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/baltameme@yahoo.com/TestPod",
+  "summary": "TestPod Library Sample",
+  "description": "TestPod Library Sample Description",
+  "homepage": "https://github.com/baltameme/TestPod.git",
   "license": {
-    "type": "MIT",
+    "type": "proprietary",
     "file": "LICENSE"
   },
   "authors": {
-    "baltameme@yahoo.com": "basil.altamimi@intigral.net"
+    "Basil Al-Tamimi": "basil.altamimi@intigral.net"
   },
   "source": {
-    "git": "https://github.com/baltameme@yahoo.com/TestPod.git",
+    "git": "https://github.com/baltameme/TestPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TestPod/Classes/**/*"
+  "source_files": "TestPod/Classes/**/*",
+  "frameworks": "UIKit"
 }

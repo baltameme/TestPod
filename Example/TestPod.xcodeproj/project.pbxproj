@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		08738B03EF86FA82F0F7E975 /* Pods-TestPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPod_Tests/Pods-TestPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2914AF859310C5EE792DB655 /* Pods-TestPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPod_Tests/Pods-TestPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		464174599F5F660406501EC0 /* TestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestPod.podspec; path = ../TestPod.podspec; sourceTree = "<group>"; };
+		464174599F5F660406501EC0 /* TestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestPod.podspec; path = ../TestPod.podspec; sourceTree = "<group>"; };
 		480C719A729973B7BF4EA2C8 /* Pods_TestPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TestPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* TestPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		67F55C2CE55D8B55E7B1DA2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67F55C2CE55D8B55E7B1DA2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6DBF617421C3AEBC91405A33 /* Pods-TestPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPod_Example/Pods-TestPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		914DF866DABEF94A7B1FDCF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		914DF866DABEF94A7B1FDCF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9637A8D9AAD08E643CCA67F6 /* Pods_TestPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBC099BD6993916F6E2F9CA /* Pods-TestPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPod_Example/Pods-TestPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -502,6 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -516,6 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
