@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'TestPod Library Sample'
   s.description      = 'TestPod Library Sample Description'
-  s.homepage         = 'https://github.com/baltameme@yahoo.com/TestPod'
+  s.homepage         = 'https://github.com/baltameme/TestPod.git'
   s.license          = { :type => 'proprietary', :file => 'LICENSE' }
   s.author           = { 'Basil Al-Tamimi' => 'basil.altamimi@intigral.net' }
-  s.source           = { :git => 'https://github.com/baltameme@yahoo.com/TestPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/baltameme/TestPod.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
